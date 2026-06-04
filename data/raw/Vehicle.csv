@@ -1,0 +1,38 @@
+Vehicle-Traffic-Analysis/
+│
+├── data/
+│   ├── raw/
+│   │   └── Vehicle.csv
+│   ├── processed/
+│   │   └── cleaned_vehicle.csv
+│
+├── notebooks/
+│   ├── data_exploration.ipynb
+│   └── model_training.ipynb
+│
+├── src/
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── train_model.py
+│   ├── predict.py
+│   └── evaluate.py
+│
+├── models/
+│   ├── trained_model.pkl
+│   └── scaler.pkl
+│
+├── reports/
+│   ├── figures/
+│   │   ├── traffic_trend.png
+│   │   └── prediction_results.png
+│   └── project_report.pdf
+│
+├── tests/
+│   ├── test_preprocessing.py
+│   └── test_model.py
+│
+├── requirements.txt
+├── README.md
+├── LICENSE
+├── .gitignore
+└── main.py
